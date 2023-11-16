@@ -4,3 +4,5 @@ Running the server locally:
 
 Nice Tutorial
 https://www.taniarascia.com/make-a-static-website-with-jekyll/
+
+1
