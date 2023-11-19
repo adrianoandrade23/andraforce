@@ -5,7 +5,7 @@ date:   2023-11-18 23:13:17 -0500
 categories: Salesforce articles
 ---
 <h3>Loading Data into Salesforce</h3>
-<img src="/images/2023-11-15-Data-Loading-with-Relationship-Img-001.png" alt="External ID" class="article-image">
+<img src="{{site.baseurl}}/images/2023-11-15-Data-Loading-with-Relationship-Img-001.png" alt="External ID" class="article-image">
 
 <p>Loading data into Salesforce that involves related records, like Accounts and Contacts, can seem challenging at first, especially for someone new to Salesforce. However, the process can be straightforward if you follow these steps. I'll explain it in simple terms, using an example of importing Account and Contact records, where Contacts are related to Accounts.</p>
 <p>If you read this article until the end, you will be able to understand clearly the Loading Data Concept.</p>
