@@ -3,3 +3,13 @@
 ---
 
 @import 'base', 'layout', 'syntax-highlighting';
+
+.article-image {
+    float: left; /* Or 'right' if you want the image on the right side */
+    margin: 0 15px 15px 0; /* Adds spacing around the image */
+    max-width: 50%; /* Adjust the maximum width as needed */
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
