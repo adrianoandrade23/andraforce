@@ -13,3 +13,21 @@
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+
+.logo {
+    height: 60px; /* Adjust the height as needed */
+    width: auto; /* Maintains aspect ratio */
+    display: inline-block; /* Aligns with other inline or inline-block elements */
+    vertical-align: middle; /* Aligns vertically with other elements in the navbar */
+    margin-right: 20px; /* Space between logo and menu items */
+}
+
+header {
+    z-index: 10; /* Any positive value */
+}
+
+main {
+    z-index: 1; /* Lower than the header's z-index */
+	padding: 50px 15px;
+}

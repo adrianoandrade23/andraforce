@@ -1,6 +1,9 @@
 <aside>
+	
 	<div class="container">
-		<nav>
+	<img src="{{site.baseurl}}/images/andraforce-logo.png" alt="Logo" class="logo"> ANDRAFORCE
+	
+    		<nav>
 			<ul>
 {% for page in site.pages %} {% if page.title %}
 <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
@@ -11,8 +14,12 @@
 			</ul>
 		</nav>
 	</div>
+	
 </aside>
-
+<div>
+</div>
+<!--
 <header>
 	<h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
 </header>
+-->
